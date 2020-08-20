@@ -33,6 +33,9 @@ brew "htop"
 brew "gpg"
 brew "git"
 
+# For Homebrew Cask-fonts Install
+brew "svn"
+
 # Vim
 brew "vim"
 
