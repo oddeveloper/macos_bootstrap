@@ -1,13 +1,13 @@
 # for using bundle / Brewfile
 tap "homebrew/bundle"
 # for dupes (ex: grep)
-tap "homebrew/dupes"
+# tap "homebrew/dupes"
 # enable cask
-tap "caskroom/cask"
+tap "homebrew/cask"
 # enable alternative versions
-tap "caskroom/versions"
+tap "homebrew/cask-versions"
 # enable cask fonts
-tap "caskroom/fonts"
+tap "homebrew/cask-fonts"
 
 # zsh shell
 brew "zsh"
@@ -44,9 +44,9 @@ cask "iterm2"
 cask "google-chrome"
 
 # Development Tools
-cask "github-desktop"
+# cask "github-desktop"
 cask "visual-studio-code"
-cask "firefoxdeveloperedition"
+cask "firefox-developer-edition"
 cask "java"
 cask "postman"
 cask "sourcetree"
@@ -59,8 +59,8 @@ cask "slack"
 cask "notion"
 
 # fonts
-cask "homebrew/cask-fonts/font-nanumgothic"
-cask "homebrew/cask-fonts/font-nanumgothiccoding"
+cask "homebrew/cask-fonts/font-nanum-gothic"
+cask "homebrew/cask-fonts/font-nanum-gothic-coding"
 cask "homebrew/cask-fonts/font-d2coding"
 cask "homebrew/cask-fonts/font-noto-sans-cjk"
 cask "homebrew/cask-fonts/font-awesome-terminal-fonts"
