@@ -42,23 +42,28 @@ brew "hugo"
 # casks for macos utility
 cask "iterm2"
 cask "google-chrome"
-cask "spectacle"
 
 # Development Tools
 cask "github-desktop"
 cask "visual-studio-code"
 cask "firefoxdeveloperedition"
 cask "java"
+cask "postman"
+cask "sourcetree"
 
 # Jetbrains Toolbox
 cask "jetbrains-toolbox"
 
+# Productivity
+cask "slack"
+cask "notion"
+
 # fonts
-cask "font-nanumgothic"
-cask "font-nanumgothiccoding"
-cask "font-d2coding"
-cask "font-noto-sans-cjk"
-cask "font-awesome-terminal-fonts"
+cask "homebrew/cask-fonts/font-nanumgothic"
+cask "homebrew/cask-fonts/font-nanumgothiccoding"
+cask "homebrew/cask-fonts/font-d2coding"
+cask "homebrew/cask-fonts/font-noto-sans-cjk"
+cask "homebrew/cask-fonts/font-awesome-terminal-fonts"
 
 # Ruby
 brew "rbenv"
@@ -68,3 +73,12 @@ brew "ruby-build"
 brew "pyenv"
 brew "pyenv-virtualenv"
 brew "pipenv"
+
+# Node
+brew "node"
+brew "yarn"
+
+# For Legacy Project Settings
+brew "curl"
+brew "gdal"
+brew "asdf"
