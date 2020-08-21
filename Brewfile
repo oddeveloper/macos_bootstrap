@@ -33,9 +33,6 @@ brew "htop"
 brew "gpg"
 brew "git"
 
-# For Homebrew Cask-fonts Install
-brew "svn"
-
 # Vim
 brew "vim"
 
@@ -53,6 +50,7 @@ cask "firefox-developer-edition"
 cask "java"
 cask "postman"
 cask "sourcetree"
+cask "docker"
 
 # Jetbrains Toolbox
 cask "jetbrains-toolbox"
@@ -61,12 +59,15 @@ cask "jetbrains-toolbox"
 cask "slack"
 cask "notion"
 
-# fonts
+# Fonts
 cask "homebrew/cask-fonts/font-nanum-gothic"
 cask "homebrew/cask-fonts/font-nanum-gothic-coding"
 cask "homebrew/cask-fonts/font-d2coding"
 cask "homebrew/cask-fonts/font-noto-sans-cjk"
 cask "homebrew/cask-fonts/font-awesome-terminal-fonts"
+
+# For Homebrew Cask-fonts Install
+brew "svn"
 
 # Ruby
 brew "rbenv"
@@ -81,7 +82,12 @@ brew "pipenv"
 brew "node"
 brew "yarn"
 
+# Database
+brew "mysql"
+brew "postgresql"
+
 # For Legacy Project Settings
 brew "curl"
 brew "gdal"
 brew "asdf"
+brew "openssl"

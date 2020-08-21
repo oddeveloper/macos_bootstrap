@@ -4,8 +4,7 @@ Usage: just go to cloned dir, ```brew bundle```
 
 Caution: check [homebrew install](https://brew.sh/) before ```brew bundle```
 
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
 
 ## taps
 * [homebrew/bundle](https://github.com/Homebrew/homebrew-bundle) : for using bundle / Brewfile
@@ -75,4 +74,4 @@ Caution: check [homebrew install](https://brew.sh/) before ```brew bundle```
 * [pipenv](https://github.com/pypa/pipenv)
 
 ## Setting (based MacOS Sierra)
-* [Sierra Setup] (https://blog.funspaces.org/2016/12/09/sierra-setup/)
+* [Sierra Setup](https://blog.funspaces.org/2016/12/09/sierra-setup/)
