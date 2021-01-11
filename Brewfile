@@ -51,6 +51,7 @@ cask "java"
 cask "postman"
 cask "sourcetree"
 cask "docker"
+cask "graphql-playground"
 
 # Jetbrains Toolbox
 cask "jetbrains-toolbox"
@@ -67,24 +68,31 @@ cask "homebrew/cask-fonts/font-noto-sans-cjk"
 cask "homebrew/cask-fonts/font-awesome-terminal-fonts"
 
 # For Homebrew Cask-fonts Install
-brew "svn"
+# brew "svn"
 
 # Ruby
 brew "rbenv"
 brew "ruby-build"
 
 # Python
-brew "pyenv"
-brew "pyenv-virtualenv"
-brew "pipenv"
+# brew "pyenv"
+# brew "pyenv-virtualenv"
+# brew "pipenv"
 
 # Node
 brew "node"
 brew "yarn"
 
+# PHP & Elixir
+brew "php"
+brew "elixir"
+
 # Database
 brew "mysql"
 brew "postgresql"
+
+# AWS
+brew "awscli"
 
 # For Legacy Project Settings
 brew "curl"
