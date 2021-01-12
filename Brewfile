@@ -1,7 +1,5 @@
 # for using bundle / Brewfile
 tap "homebrew/bundle"
-# for dupes (ex: grep)
-# tap "homebrew/dupes"
 # enable cask
 tap "homebrew/cask"
 # enable alternative versions
@@ -44,10 +42,8 @@ cask "iterm2"
 cask "google-chrome"
 
 # Development Tools
-# cask "github-desktop"
 cask "visual-studio-code"
 cask "firefox-developer-edition"
-cask "java"
 cask "postman"
 cask "sourcetree"
 cask "docker"
@@ -60,6 +56,9 @@ cask "jetbrains-toolbox"
 cask "slack"
 cask "notion"
 
+# For Homebrew Cask-fonts Install
+brew "svn"
+
 # Fonts
 cask "homebrew/cask-fonts/font-nanum-gothic"
 cask "homebrew/cask-fonts/font-nanum-gothic-coding"
@@ -67,21 +66,27 @@ cask "homebrew/cask-fonts/font-d2coding"
 cask "homebrew/cask-fonts/font-noto-sans-cjk"
 cask "homebrew/cask-fonts/font-awesome-terminal-fonts"
 
-# For Homebrew Cask-fonts Install
-# brew "svn"
+# Common
+brew "asdf"
+
+# Java
+brew "jenv"
 
 # Ruby
 brew "rbenv"
 brew "ruby-build"
 
-# Python
+# Python: Alternative asdf
 # brew "pyenv"
 # brew "pyenv-virtualenv"
 # brew "pipenv"
 
 # Node
-brew "node"
-brew "yarn"
+brew "nvm"
+
+# Using Nvm Install
+# brew "node"
+# brew "yarn"
 
 # PHP & Elixir
 brew "php"
@@ -97,5 +102,4 @@ brew "awscli"
 # For Legacy Project Settings
 brew "curl"
 brew "gdal"
-brew "asdf"
 brew "openssl"

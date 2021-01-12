@@ -4,7 +4,16 @@ Usage: just go to cloned dir, ```brew bundle```
 
 Caution: check [homebrew install](https://brew.sh/) before ```brew bundle```
 
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
+```
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+$ git clone https://github.com/oddeveloper/macos_bootstrap
+$ cd macos_bootstrap && brew bundle
+
+$ echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
+$ chsh -s $(which zsh) # 이후 터미널 재시작
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 
 ## taps
 * [homebrew/bundle](https://github.com/Homebrew/homebrew-bundle) : for using bundle / Brewfile
