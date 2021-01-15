@@ -1,31 +1,35 @@
-# Bootstrap repository for MacOS Sierra
+# Dev Envrionments Setup for MacOS
 
-Usage: just go to cloned dir, ```brew bundle```
+Usage: just go to cloned dir in mac os terminal and install.
 
-Caution: check [homebrew install](https://brew.sh/) before ```brew bundle```
+Check: [homebrew install](https://brew.sh/) before ```brew bundle```
 
 ```
+## if brew is not installed mac.
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+## repository clone and brew bundle
 $ git clone https://github.com/oddeveloper/macos_bootstrap
 $ cd macos_bootstrap && brew bundle
 
+## set zsh
 $ echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
 $ chsh -s $(which zsh) # 이후 터미널 재시작
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-## taps
+## Inside Brewfile
+
+### Brew and Cask
 * [homebrew/bundle](https://github.com/Homebrew/homebrew-bundle) : for using bundle / Brewfile
-* [homebrew/dupes](https://github.com/Homebrew/homebrew-dupes) : for dupes (ex: grep)
 * [caskroom/cask](https://caskroom.github.io) : enable cask
 * [caskroom/versions](https://github.com/caskroom/homebrew-versions) : alternative versions
 * [caskroom/fonts](https://github.com/caskroom/homebrew-fonts) : cask fonts
 
-## Shell installation
+### Shell installation
 * [zsh](http://www.zsh.org)
 
-## GNU utils
+### GNU utils
 * gnu-sed
 * gnu-tar
 * gnutls
@@ -34,10 +38,10 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/m
 * binutils
 * diffutils
 
-## TMUX
+### Tmux (Not Required)
 * [tmux](https://tmux.github.io)
 
-## System utils
+### System utils
 * gzip
 * watch
 * wget
@@ -46,41 +50,62 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/m
 * gpg
 * git
 
-## Vim
+### Vim
 * [vim](http://www.vim.org)
 
-## Static Site Generator
+### Static Site Generator (Not Required, Just Blogging)
 * [hugo](https://gohugo.io)
 
-## MacOS utilities
+### MacOS utilities
 * [iterm2](https://www.iterm2.com)
 * [google-chrome](https://www.google.com/chrome/)
-* [spectacle](https://www.spectacleapp.com)
+* [zoom](https://zoom.us/)
 
-## Development Tools
-* [github-desktop](https://desktop.github.com)
-* [visual-studio-code](https://code.visualstudio.com)
-* [firefoxdeveloperedition](https://www.mozilla.org/firefox/developer/)
-* [java](http://www.oracle.com/technetwork/java/index.html)
+### Development Tools
+* [visual-studio-code](https://code.visualstudio.com) (Temporary Required)
+* [firefoxdeveloperedition](https://www.mozilla.org/firefox/developer/) (Not Required)
+* [postman](https://www.postman.com/)
+* [docker](https://www.docker.com/)
 
-## Jetbrains Toolbox
+### Jetbrains Toolbox
 * [jetbrains-toolbox](https://www.jetbrains.com/toolbox/)
 
-## Fonts
+### Productivity
+* [slack](http://slack.com/)
+* [notion](https://www.notion.so/)
+
+### Fonts (Not Required and Install Before Needs Svn)
 * [font-nanumgothic](http://hangeul.naver.com/font)
 * [font-nanumgothiccoding](https://github.com/naver/nanumfont)
 * [font-d2coding](https://github.com/naver/d2codingfont)
 * [font-noto-sans-cjk](https://www.google.com/get/noto/help/cjk/)
 * [font-awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts)
 
-## Ruby
+### Asdf (Not Required)
+* [Asdf](https://asdf-vm.com/#/)
+
+### Ruby
 * [rbenv](https://github.com/rbenv/rbenv)
 * [ruby-build](https://github.com/rbenv/ruby-build#readme)
 
-## Python
+### Python (Not Required)
 * [pyenv](https://github.com/yyuu/pyenv)
 * [pyenv-virtualenv](https://github.com/yyuu/pyenv-virtualenv)
 * [pipenv](https://github.com/pypa/pipenv)
 
-## Setting (based MacOS Sierra)
+### Nvm
+* [nvm](https://github.com/nvm-sh/nvm)
+
+### PHP (Not Required)
+* [php](https://www.php.net/)
+
+### Database
+* [mysql](https://www.mysql.com/)
+* [dynamodb](https://aws.amazon.com/ko/dynamodb/)
+* [postgresql](https://www.postgresql.org/) (Not Required)
+
+### AWS
+* [aws-cli]()https://aws.amazon.com/ko/cli/
+
+### Reference Link
 * [Sierra Setup](https://blog.funspaces.org/2016/12/09/sierra-setup/)

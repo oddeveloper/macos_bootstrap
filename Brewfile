@@ -40,14 +40,15 @@ brew "hugo"
 # casks for macos utility
 cask "iterm2"
 cask "google-chrome"
+cask "zoomus"
 
 # Development Tools
 cask "visual-studio-code"
 cask "firefox-developer-edition"
 cask "postman"
-cask "sourcetree"
+# cask "sourcetree"
 cask "docker"
-cask "graphql-playground"
+# cask "graphql-playground"
 
 # Jetbrains Toolbox
 cask "jetbrains-toolbox"
@@ -88,18 +89,18 @@ brew "nvm"
 # brew "node"
 # brew "yarn"
 
-# PHP & Elixir
+# PHP
 brew "php"
-brew "elixir"
 
 # Database
 brew "mysql"
 brew "postgresql"
+cask "dynamodb-local"
 
 # AWS
 brew "awscli"
 
 # For Legacy Project Settings
-brew "curl"
-brew "gdal"
-brew "openssl"
+# brew "curl"
+# brew "gdal"
+# brew "openssl"
