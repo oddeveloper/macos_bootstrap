@@ -6,6 +6,9 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 # enable cask fonts
 tap "homebrew/cask-fonts"
+# enable setting for php install multiple versions
+# reference: https://getgrav.org/blog/macos-bigsur-apache-multiple-php-versions
+tap "shivammathur/php"
 
 # zsh shell
 brew "zsh"
@@ -82,15 +85,17 @@ brew "ruby-build"
 # brew "pyenv-virtualenv"
 # brew "pipenv"
 
-# Node
+# Nvm for Node
 brew "nvm"
 
 # Using Nvm Install
 # brew "node"
 # brew "yarn"
 
-# PHP
-brew "php"
+# Composer for Php
+# brew "php"
+# brew "phpbrew"
+brew "composer"
 
 # Database
 brew "mysql"
