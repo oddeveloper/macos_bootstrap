@@ -26,10 +26,12 @@ brew "tmux"
 brew "gzip"
 brew "watch"
 brew "wget"
+brew "curl"
 brew "nmap"
 brew "htop"
 brew "gpg"
 brew "git"
+brew "openssl"
 
 # Vim
 brew "vim"
@@ -69,29 +71,6 @@ cask "homebrew/cask-fonts/font-awesome-terminal-fonts"
 # Common
 brew "asdf"
 
-# Java
-brew "jenv"
-
-# Ruby
-brew "rbenv"
-brew "ruby-build"
-
-# Python: Alternative asdf
-# brew "pyenv"
-# brew "pyenv-virtualenv"
-# brew "pipenv"
-
-# Node
-brew "nvm"
-
-# Using Nvm Install
-# brew "node"
-# brew "yarn"
-
-# PHP & Elixir
-brew "php"
-brew "elixir"
-
 # Database
 brew "mysql"
 brew "postgresql"
@@ -99,7 +78,17 @@ brew "postgresql"
 # AWS
 brew "awscli"
 
-# For Legacy Project Settings
-brew "curl"
-brew "gdal"
-brew "openssl"
+# Java
+# brew "jenv"
+
+# Ruby
+# brew "rbenv"
+# brew "ruby-build"
+
+# Python
+# brew "pyenv"
+# brew "pyenv-virtualenv"
+# brew "pipenv"
+
+# Node
+# brew "nvm"
