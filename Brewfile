@@ -29,6 +29,7 @@ brew "tmux"
 brew "gzip"
 brew "watch"
 brew "wget"
+brew "curl"
 brew "nmap"
 brew "htop"
 brew "gpg"
@@ -49,9 +50,7 @@ cask "zoomus"
 cask "visual-studio-code"
 cask "firefox-developer-edition"
 cask "postman"
-# cask "sourcetree"
 cask "docker"
-# cask "graphql-playground"
 
 # Jetbrains Toolbox
 cask "jetbrains-toolbox"
@@ -73,28 +72,14 @@ cask "homebrew/cask-fonts/font-awesome-terminal-fonts"
 # Common
 brew "asdf"
 
-# Java
-brew "jenv"
-
 # Ruby
 brew "rbenv"
 brew "ruby-build"
 
-# Python: Alternative asdf
-# brew "pyenv"
-# brew "pyenv-virtualenv"
-# brew "pipenv"
-
 # Nvm for Node
 brew "nvm"
 
-# Using Nvm Install
-# brew "node"
-# brew "yarn"
-
-# Composer for Php
-# brew "php"
-# brew "phpbrew"
+# for PHP
 brew "composer"
 
 # Database
@@ -104,8 +89,3 @@ cask "dynamodb-local"
 
 # AWS
 brew "awscli"
-
-# For Legacy Project Settings
-# brew "curl"
-# brew "gdal"
-# brew "openssl"
