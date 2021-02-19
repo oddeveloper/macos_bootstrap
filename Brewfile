@@ -77,18 +77,19 @@ brew "postgresql"
 
 # AWS
 brew "awscli"
+brew "awslogs"
+
+# Ruby
+brew "rbenv"
+brew "ruby-build"
+
+# Node
+brew "nvm"
 
 # Java
 # brew "jenv"
-
-# Ruby
-# brew "rbenv"
-# brew "ruby-build"
 
 # Python
 # brew "pyenv"
 # brew "pyenv-virtualenv"
 # brew "pipenv"
-
-# Node
-# brew "nvm"
